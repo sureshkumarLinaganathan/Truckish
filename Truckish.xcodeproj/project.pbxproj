@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D55F93E920D22CB4005B1036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F93E820D22CB4005B1036 /* AppDelegate.swift */; };
+		D55F93EB20D22CB4005B1036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F93EA20D22CB4005B1036 /* ViewController.swift */; };
+		D55F93EE20D22CB4005B1036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55F93EC20D22CB4005B1036 /* Main.storyboard */; };
+		D55F93F020D22CB4005B1036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55F93EF20D22CB4005B1036 /* Assets.xcassets */; };
+		D55F93F320D22CB4005B1036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55F93F120D22CB4005B1036 /* LaunchScreen.storyboard */; };
+		D55F93FE20D22CB4005B1036 /* TruckishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F93FD20D22CB4005B1036 /* TruckishTests.swift */; };
+		D55F940920D22CB4005B1036 /* TruckishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F940820D22CB4005B1036 /* TruckishUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D55F93FA20D22CB4005B1036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D55F93DD20D22CB4005B1036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55F93E420D22CB4005B1036;
+			remoteInfo = Truckish;
+		};
+		D55F940520D22CB4005B1036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D55F93DD20D22CB4005B1036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55F93E420D22CB4005B1036;
+			remoteInfo = Truckish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D55F93E520D22CB4005B1036 /* Truckish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Truckish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55F93E820D22CB4005B1036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D55F93EA20D22CB4005B1036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D55F93ED20D22CB4005B1036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D55F93EF20D22CB4005B1036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D55F93F220D22CB4005B1036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D55F93F420D22CB4005B1036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55F93F920D22CB4005B1036 /* TruckishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55F93FD20D22CB4005B1036 /* TruckishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckishTests.swift; sourceTree = "<group>"; };
+		D55F93FF20D22CB4005B1036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55F940420D22CB4005B1036 /* TruckishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55F940820D22CB4005B1036 /* TruckishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckishUITests.swift; sourceTree = "<group>"; };
+		D55F940A20D22CB4005B1036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D55F93E220D22CB4005B1036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55F93F620D22CB4005B1036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55F940120D22CB4005B1036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D55F93DC20D22CB4005B1036 = {
+			isa = PBXGroup;
+			children = (
+				D55F93E720D22CB4005B1036 /* Truckish */,
+				D55F93FC20D22CB4005B1036 /* TruckishTests */,
+				D55F940720D22CB4005B1036 /* TruckishUITests */,
+				D55F93E620D22CB4005B1036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D55F93E620D22CB4005B1036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D55F93E520D22CB4005B1036 /* Truckish.app */,
+				D55F93F920D22CB4005B1036 /* TruckishTests.xctest */,
+				D55F940420D22CB4005B1036 /* TruckishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D55F93E720D22CB4005B1036 /* Truckish */ = {
+			isa = PBXGroup;
+			children = (
+				D55F93E820D22CB4005B1036 /* AppDelegate.swift */,
+				D55F93EA20D22CB4005B1036 /* ViewController.swift */,
+				D55F93EC20D22CB4005B1036 /* Main.storyboard */,
+				D55F93EF20D22CB4005B1036 /* Assets.xcassets */,
+				D55F93F120D22CB4005B1036 /* LaunchScreen.storyboard */,
+				D55F93F420D22CB4005B1036 /* Info.plist */,
+			);
+			path = Truckish;
+			sourceTree = "<group>";
+		};
+		D55F93FC20D22CB4005B1036 /* TruckishTests */ = {
+			isa = PBXGroup;
+			children = (
+				D55F93FD20D22CB4005B1036 /* TruckishTests.swift */,
+				D55F93FF20D22CB4005B1036 /* Info.plist */,
+			);
+			path = TruckishTests;
+			sourceTree = "<group>";
+		};
+		D55F940720D22CB4005B1036 /* TruckishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D55F940820D22CB4005B1036 /* TruckishUITests.swift */,
+				D55F940A20D22CB4005B1036 /* Info.plist */,
+			);
+			path = TruckishUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D55F93E420D22CB4005B1036 /* Truckish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55F940D20D22CB4005B1036 /* Build configuration list for PBXNativeTarget "Truckish" */;
+			buildPhases = (
+				D55F93E120D22CB4005B1036 /* Sources */,
+				D55F93E220D22CB4005B1036 /* Frameworks */,
+				D55F93E320D22CB4005B1036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Truckish;
+			productName = Truckish;
+			productReference = D55F93E520D22CB4005B1036 /* Truckish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D55F93F820D22CB4005B1036 /* TruckishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55F941020D22CB4005B1036 /* Build configuration list for PBXNativeTarget "TruckishTests" */;
+			buildPhases = (
+				D55F93F520D22CB4005B1036 /* Sources */,
+				D55F93F620D22CB4005B1036 /* Frameworks */,
+				D55F93F720D22CB4005B1036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D55F93FB20D22CB4005B1036 /* PBXTargetDependency */,
+			);
+			name = TruckishTests;
+			productName = TruckishTests;
+			productReference = D55F93F920D22CB4005B1036 /* TruckishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D55F940320D22CB4005B1036 /* TruckishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55F941320D22CB4005B1036 /* Build configuration list for PBXNativeTarget "TruckishUITests" */;
+			buildPhases = (
+				D55F940020D22CB4005B1036 /* Sources */,
+				D55F940120D22CB4005B1036 /* Frameworks */,
+				D55F940220D22CB4005B1036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D55F940620D22CB4005B1036 /* PBXTargetDependency */,
+			);
+			name = TruckishUITests;
+			productName = TruckishUITests;
+			productReference = D55F940420D22CB4005B1036 /* TruckishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D55F93DD20D22CB4005B1036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Truckish;
+				TargetAttributes = {
+					D55F93E420D22CB4005B1036 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D55F93F820D22CB4005B1036 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D55F93E420D22CB4005B1036;
+					};
+					D55F940320D22CB4005B1036 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D55F93E420D22CB4005B1036;
+					};
+				};
+			};
+			buildConfigurationList = D55F93E020D22CB4005B1036 /* Build configuration list for PBXProject "Truckish" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D55F93DC20D22CB4005B1036;
+			productRefGroup = D55F93E620D22CB4005B1036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D55F93E420D22CB4005B1036 /* Truckish */,
+				D55F93F820D22CB4005B1036 /* TruckishTests */,
+				D55F940320D22CB4005B1036 /* TruckishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D55F93E320D22CB4005B1036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55F93F320D22CB4005B1036 /* LaunchScreen.storyboard in Resources */,
+				D55F93F020D22CB4005B1036 /* Assets.xcassets in Resources */,
+				D55F93EE20D22CB4005B1036 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55F93F720D22CB4005B1036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55F940220D22CB4005B1036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D55F93E120D22CB4005B1036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55F93EB20D22CB4005B1036 /* ViewController.swift in Sources */,
+				D55F93E920D22CB4005B1036 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55F93F520D22CB4005B1036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55F93FE20D22CB4005B1036 /* TruckishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55F940020D22CB4005B1036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55F940920D22CB4005B1036 /* TruckishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D55F93FB20D22CB4005B1036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D55F93E420D22CB4005B1036 /* Truckish */;
+			targetProxy = D55F93FA20D22CB4005B1036 /* PBXContainerItemProxy */;
+		};
+		D55F940620D22CB4005B1036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D55F93E420D22CB4005B1036 /* Truckish */;
+			targetProxy = D55F940520D22CB4005B1036 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D55F93EC20D22CB4005B1036 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D55F93ED20D22CB4005B1036 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D55F93F120D22CB4005B1036 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D55F93F220D22CB4005B1036 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D55F940B20D22CB4005B1036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D55F940C20D22CB4005B1036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D55F940E20D22CB4005B1036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ER5MU285;
+				INFOPLIST_FILE = Truckish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.Truckish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D55F940F20D22CB4005B1036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ER5MU285;
+				INFOPLIST_FILE = Truckish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.Truckish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D55F941120D22CB4005B1036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ER5MU285;
+				INFOPLIST_FILE = TruckishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.TruckishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truckish.app/Truckish";
+			};
+			name = Debug;
+		};
+		D55F941220D22CB4005B1036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ER5MU285;
+				INFOPLIST_FILE = TruckishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.TruckishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truckish.app/Truckish";
+			};
+			name = Release;
+		};
+		D55F941420D22CB4005B1036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ER5MU285;
+				INFOPLIST_FILE = TruckishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.TruckishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Truckish;
+			};
+			name = Debug;
+		};
+		D55F941520D22CB4005B1036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35ER5MU285;
+				INFOPLIST_FILE = TruckishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.truckish.TruckishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Truckish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D55F93E020D22CB4005B1036 /* Build configuration list for PBXProject "Truckish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55F940B20D22CB4005B1036 /* Debug */,
+				D55F940C20D22CB4005B1036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55F940D20D22CB4005B1036 /* Build configuration list for PBXNativeTarget "Truckish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55F940E20D22CB4005B1036 /* Debug */,
+				D55F940F20D22CB4005B1036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55F941020D22CB4005B1036 /* Build configuration list for PBXNativeTarget "TruckishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55F941120D22CB4005B1036 /* Debug */,
+				D55F941220D22CB4005B1036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55F941320D22CB4005B1036 /* Build configuration list for PBXNativeTarget "TruckishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55F941420D22CB4005B1036 /* Debug */,
+				D55F941520D22CB4005B1036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D55F93DD20D22CB4005B1036 /* Project object */;
+}
