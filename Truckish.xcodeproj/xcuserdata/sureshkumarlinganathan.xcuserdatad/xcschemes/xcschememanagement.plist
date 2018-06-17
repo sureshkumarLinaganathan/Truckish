@@ -7,7 +7,25 @@
 		<key>Truckish.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>12</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D55F93E420D22CB4005B1036</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D55F93F820D22CB4005B1036</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D55F940320D22CB4005B1036</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

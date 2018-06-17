@@ -1,0 +1,6 @@
+framework module Pods_Truckish {
+  umbrella header "Pods-Truckish-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_TruckishUITests {
+  umbrella header "Pods-TruckishUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
