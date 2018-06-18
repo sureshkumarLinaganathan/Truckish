@@ -23,14 +23,15 @@ class LocationDetailsViewController: UIViewController {
     var loadingIndicator:NVActivityIndicatorView?
     var loadingView:UIView?
     
+    @IBOutlet weak var showInMapButton: UIButton!
     @IBOutlet weak var tableView: UITableView!
     var locationManager:CLLocationManager?;
     var otherInfo :OtherInfo?;
+    var wheatherInfo:WheatherInfo?;
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        self.navigationController?.isNavigationBarHidden = true;
         self.setupView();
     }
     
@@ -61,7 +62,7 @@ class LocationDetailsViewController: UIViewController {
 extension LocationDetailsViewController:UITableViewDataSource,UITableViewDelegate{
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 2;
+        return 3;
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -73,18 +74,21 @@ extension LocationDetailsViewController:UITableViewDataSource,UITableViewDelegat
             let locationDescriptionCell:LocationDescriptionTableViewCell = tableView.dequeueReusableCell(withIdentifier:LocationDescriptionTableViewCellReuseIdentifier, for: indexPath) as!LocationDescriptionTableViewCell
             locationDescriptionCell.setupView(locationDescription: (placeObject?.placeDescription)!);
             return locationDescriptionCell;
-        }else{
+        }else if(indexPath.section == 1){
             
             let addressTableviewCell:AddressTableViewCell = tableView.dequeueReusableCell(withIdentifier: AddressTableViewCellReuseIdentifier, for: indexPath) as! AddressTableViewCell;
+            addressTableviewCell.creatCardView();
             if(self.otherInfo != nil){
                 addressTableviewCell.setupView(otherInfo:self.otherInfo!);
-            }else{
-                self.otherInfo?.distance = "---";
-                self.otherInfo?.duration = "---";
-                self.otherInfo?.sourceAddress = "---";
-                self.otherInfo?.destinationAddress = "---";
             }
             return addressTableviewCell;
+        }else{
+            let wheatherInfoCell:WheatherInfoTableViewCell = tableView.dequeueReusableCell(withIdentifier: WheatherInfoTableViewCellReuseIdenifier, for: indexPath) as! WheatherInfoTableViewCell;
+            wheatherInfoCell.creatCardView();
+            if(self.wheatherInfo != nil){
+                wheatherInfoCell.setupView(wheatherInfo: self.wheatherInfo!);
+            }
+            return wheatherInfoCell;
         }
         
     }
@@ -99,6 +103,7 @@ extension LocationDetailsViewController:CLLocationManagerDelegate{
         self.getCurrentLocation();
         self.titleLabel.text = placeObject?.name!;
         self.cardView?.createCardEffect();
+        self.fetchWheatherInfo();
         let url:NSURL = NSURL(string: (self.placeObject?.image_Url)!)!;
         placeImageView.sd_setImage(with: url as URL , placeholderImage: UIImage(named: "Placholder.png"), options: .continueInBackground) { (image, error, type, url) in
             if(image != nil){
@@ -134,12 +139,15 @@ extension LocationDetailsViewController:CLLocationManagerDelegate{
         let lat = location?.coordinate.latitude;
         let lan = location?.coordinate.longitude;
         self.currentLocation = CLLocationCoordinate2DMake(lat!, lan!);
+        self.showInMapButton.isEnabled = true;
         self.locationManager?.stopUpdatingLocation();
         self.calculateDistance(lat: lat!,lan:lan!);
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error){
         self.locationManager?.stopUpdatingLocation();
+        self.showInMapButton.isEnabled = false;
+        self.tableView.reloadSections(IndexSet(integer:1), with: .top);
     }
     func calculateDistance(lat:Double,lan:Double) ->Void{
         let sourceDestination:String = String(lat)+","+String(lan);
@@ -152,11 +160,24 @@ extension LocationDetailsViewController:CLLocationManagerDelegate{
             self.loadingView?.isHidden = true;
             if(success){
                 self.otherInfo = otherInfo[0] as OtherInfo;
-                self.tableView.reloadSections(IndexSet(integer:1), with: .top);
-                
             }
+            self.tableView.reloadSections(IndexSet(integer:1), with: .top);
             
         }
+    }
+    
+    func fetchWheatherInfo()->Void{
+        let array:Array = [(self.placeObject?.location)! .components(separatedBy: ",")]
+        let stringArray:Array = array[0];
+        let lat = stringArray[0] as String!;
+        let lan = stringArray[1] as String!
+        Webservice().fetchWheatherInfo(lat: lat!, lan: lan!) { (success, errormess, wheatherInfo) in
+            if(success){
+                self.wheatherInfo = wheatherInfo[0];
+            }
+             self.tableView.reloadSections(IndexSet(integer:2), with: .top);
+        }
+        
     }
     
 }

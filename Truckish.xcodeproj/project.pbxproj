@@ -32,6 +32,8 @@
 		D5B9B06720D3E121007F3712 /* PlaceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B9B06620D3E121007F3712 /* PlaceListTableViewCell.swift */; };
 		D5B9B06A20D4101B007F3712 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B9B06920D4101B007F3712 /* LocationDetailsViewController.swift */; };
 		D5B9B06E20D4154D007F3712 /* LocationDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B9B06D20D4154D007F3712 /* LocationDetailsTableViewCell.swift */; };
+		D5CF4E0E20D77A290088500C /* WheatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF4E0D20D77A290088500C /* WheatherInfo.swift */; };
+		D5CF4E1020D79AF80088500C /* WheatherInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CF4E0F20D79AF80088500C /* WheatherInfoTableViewCell.swift */; };
 		D5D9F28F20D687D60021B0E7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D9F28E20D687D60021B0E7 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +91,8 @@
 		D5B9B06620D3E121007F3712 /* PlaceListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceListTableViewCell.swift; sourceTree = "<group>"; };
 		D5B9B06920D4101B007F3712 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 		D5B9B06D20D4154D007F3712 /* LocationDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		D5CF4E0D20D77A290088500C /* WheatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherInfo.swift; sourceTree = "<group>"; };
+		D5CF4E0F20D79AF80088500C /* WheatherInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherInfoTableViewCell.swift; sourceTree = "<group>"; };
 		D5D9F28E20D687D60021B0E7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		FC9737F4DF8F24E5A16B8754 /* Pods_Truckish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truckish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -150,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				D54ACDA220D620DA002D12CB /* OtherInfo.swift */,
+				D5CF4E0D20D77A290088500C /* WheatherInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 				D5B9B06D20D4154D007F3712 /* LocationDetailsTableViewCell.swift */,
 				D51B6DD920D55D0100DE2B67 /* LocationDescriptionTableViewCell.swift */,
 				D51B6DDD20D5916A00DE2B67 /* AddressTableViewCell.swift */,
+				D5CF4E0F20D79AF80088500C /* WheatherInfoTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -572,6 +578,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D55F941E20D25759005B1036 /* UITextField+TextFieldEffects.swift in Sources */,
+				D5CF4E1020D79AF80088500C /* WheatherInfoTableViewCell.swift in Sources */,
 				D51B6DDA20D55D0100DE2B67 /* LocationDescriptionTableViewCell.swift in Sources */,
 				D5B9B06720D3E121007F3712 /* PlaceListTableViewCell.swift in Sources */,
 				D55F942120D2678E005B1036 /* UIButton+UIButtonEffects.swift in Sources */,
@@ -579,6 +586,7 @@
 				D54ACDA320D620DA002D12CB /* OtherInfo.swift in Sources */,
 				D5B9B06E20D4154D007F3712 /* LocationDetailsTableViewCell.swift in Sources */,
 				D51B6DDC20D55D5600DE2B67 /* UIView+CardEffect.swift in Sources */,
+				D5CF4E0E20D77A290088500C /* WheatherInfo.swift in Sources */,
 				D5B9B06A20D4101B007F3712 /* LocationDetailsViewController.swift in Sources */,
 				D55F941B20D25078005B1036 /* Theme.swift in Sources */,
 				D55CC82420D2B75A00BF82EE /* SavedLocationListViewController.swift in Sources */,

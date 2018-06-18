@@ -21,8 +21,11 @@ class AddressTableViewCell: UITableViewCell {
     
     //Setup view
     
-    func setupView(otherInfo:OtherInfo)->Void{
+    func creatCardView()->Void{
         self.cardView.createCardEffect();
+    }
+    
+    func setupView(otherInfo:OtherInfo)->Void{
         self.currentAddressLabel?.text = (otherInfo.sourceAddress) ?? "---" ;
         self.destinationAddressLabel?.text = (otherInfo.destinationAddress) ?? "---";
         self.distanceLabel?.text = (otherInfo.distance) ?? "---";

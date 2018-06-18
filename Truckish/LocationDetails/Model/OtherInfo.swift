@@ -12,7 +12,6 @@ class OtherInfo: NSObject {
     
     var sourceAddress:String?;
     var destinationAddress:String?;
-    var wheather:String?;
     var distance:String?;
     var duration:String?;
     
@@ -31,7 +30,6 @@ class OtherInfo: NSObject {
         self.distance =  distanceDict["text"] as? String;
         let durationDict = (dict! ["duration"] as? NSDictionary)!;
         self.duration = durationDict["text"] as? String;
-        self.wheather = "";
         return self;
     }
 }
